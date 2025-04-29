@@ -71,7 +71,6 @@ public class Song {
 	
 	//노래정보 출력
 	public void showInfo(){
-		System.out.println(artist + ","+ title +","+"(" + album + "," + year + "," + track + "," + composer+")");  
-		
+		System.out.println(artist + ","+ title +" ( " + album + "," + year + "," + track + "," + composer+" )");  
 	}
 }
