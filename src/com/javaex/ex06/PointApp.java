@@ -13,9 +13,8 @@ public class PointApp {
  		p02.setX(100);
  		p02.setY(100);
  		
- 		
- 		p01.drow();
- 		p02.drow();
+ 		p01.draw();
+ 		p02.draw();
 		
 	}
 }

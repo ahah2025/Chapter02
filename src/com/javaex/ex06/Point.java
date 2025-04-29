@@ -31,7 +31,7 @@ public class Point {
  	}
  	
  	//메소드 일반
- 	public void drow() {
+ 	public void draw() {
  		System.out.println("점[x=" + x +", y=" + y + "]을 그렸습니다.");          
  	}
  	
