@@ -13,7 +13,6 @@ public class Point {
 	public void setX(int xx) {
 		this.x = xx;
 	}
-		
 
  	//x읽기
  	public int getX() {
