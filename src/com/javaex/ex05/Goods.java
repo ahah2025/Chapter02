@@ -12,7 +12,7 @@ public class Goods {
 	
 	//name 값 입력
 	public void setName(String n) {
-		name = n;
+		this.name = n;
 	}
 	
 	//name 값 읽어오기
@@ -21,7 +21,7 @@ public class Goods {
 	}
 	//price 입력
 	public void setPrice(int p) {
-		price = p;
+		this.price = p;
 	}
 	
 	//price 읽어오기
