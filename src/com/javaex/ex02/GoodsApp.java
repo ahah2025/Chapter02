@@ -12,6 +12,12 @@ public class GoodsApp { //메인 메소드
 		String name = camera.getName();
 		System.out.println(name);
 	
+		//가격 저장
+		camera.setPrice(400000);
+	
+		//가격 읽어오기
+		int price = camera.getPrice();
+		System.out.println(price);
 	}
 
 }
