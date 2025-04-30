@@ -65,7 +65,7 @@ public class Tv {
 	//Tv정보 출력
 	public void status() {
 		System.out.println(power);
-		System.out.println(volume);
-		System.out.println(channel);
+		System.out.println(volume++);
+		System.out.println(channel++);
 	}	
 }
