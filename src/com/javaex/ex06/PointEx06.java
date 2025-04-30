@@ -1,6 +1,6 @@
 package com.javaex.ex06;
 
-public class Point {
+public class PointEx06 {
 
 	//필드
 	private int x;
@@ -30,6 +30,8 @@ public class Point {
  	}
  	
  	//메소드 일반
+ 	
+ 	//출력
  	public void draw() {
  		System.out.println("점[x=" + x +", y=" + y + "]을 그렸습니다.");          
  	}
