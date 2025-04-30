@@ -6,8 +6,12 @@ public class Goods {
 	private String name;
 	private int price;
 	
-	//생성자
-
+	//생성자 ->메모리에 올린다(자동)   생성자의 이름은 클래스명(Goods)과 같음
+	//return 형은 필요없음
+	public Goods() {
+		//기본생성자
+	}
+	
 	//메소드
 	
 	//name 값 입력
