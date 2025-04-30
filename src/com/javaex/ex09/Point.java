@@ -8,12 +8,12 @@ public class Point {
 	
 	//생성자 기본
 	public Point() {
-		
+		//메모리에 올리는 일
 	}
 	
 	//생성자 오버로딩
 	public Point(int x,int y) {
-		//메모리에 올려주는 일
+		//메모리에 올리는 일
 		this.x = x;
 		this.y = y;
 	}
@@ -38,8 +38,6 @@ public class Point {
  		return y;
  	}
 	//메소드(일반)
-
- 	//출력
  	public void draw() {
  		System.out.println("점[x="+ x +","+"y="+ y +"]"+ "을 그렸습니다.");
  	}

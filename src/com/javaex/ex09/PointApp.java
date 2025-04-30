@@ -7,7 +7,7 @@ public class PointApp {
 		//메모리에 올리고
 		Point p01 = new Point();
 		p01.setX(5);
-		p01.setY(20);
+		p01.setY(10);
 		
 		p01.draw();	
 		

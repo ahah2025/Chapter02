@@ -8,21 +8,55 @@ public class Song {
 	private String album;
 	private String composer;
 	private String year;
-	private String track;
+	private int track;
 	
 	//생성자
-	public Song() {
-		
+	//기본생성자
+	public Song() { //메모리
+		System.out.println("Song()");
 	}
 	
-	public Song(Title,Artist,Album,Composer,Year,Track) {
+	//생성자 구분 규칙   Song(String, String)
+	public Song(String title, String artist) {
+	 	this.title = title;
+		this.artist = artist;
+	}
+	/*
+	//생성자 구분 규칙   Song(String, String)
+	public Song(String title, String album) {
+		this.title = title;
+		this.artist = artist;
+	}
+	*/
+	
+	//생성자 구분 규칙 Song(int, String)
+	 	//생성자 구분 규칙 Song(String, int)
+	public Song(String title, int track) {
+		this.title = title;
+	 	this.track = track;  
+	}
+	
+	//생성자(5개)
+	public Song(String title,String artist,String album,String composer,String year) {
+		//메모리
 		this.title=title;
 		this.artist=artist;
 		this.album=album;
 		this.composer=composer;
-		this.year=year;
-		this.track=track;
+		this.year=year;  //복잡한 로직2이 있다
+		System.out.println("Song(5)");
 	}
+	
+	// 생성자(6개)
+ 	public Song(String title, String artist, String album, String composer, String year, int track) {
+ 		//this(5) --> Song(5) 를 호출
+ 		this(title, artist, album, composer, year);	//메모리
+ 		
+ 		this.track = track;  //일반적인 업무는 메모리에 올라간후에 해야한다
+ 		
+ 		System.out.println("Song(6)");
+ 		
+ 	}
 	
 	//메소드(gs)
 	public void setTitle(String title) {
@@ -59,6 +93,19 @@ public class Song {
 	public String getYear() {
 		return year;
 	}
-	//메소드(일반)
 	
+	public void setTrack(int track) {
+		this.track=track;
+	}
+	public int getTrack() {
+		return track;
+	}
+	//메소드(일반)
+	public void showInfo() {
+		System.out.println(artist+","+title+
+				"( "+album+","+year+","+track
+				+"번 track,"+composer+" 작곡"+" )");
+		
+		
+	}
 }
