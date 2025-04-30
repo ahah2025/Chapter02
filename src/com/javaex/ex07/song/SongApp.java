@@ -6,8 +6,8 @@ public class SongApp {
 		
 		//아이유
 		Song S1 = new Song();
-		S1.setTitle(" 좋은날");
 		S1.setArtist("아이유");
+		S1.setTitle(" 좋은날");
 		S1.setAlbum("Real");
 		S1.setYear("2010");
 		S1.setTrack("3번 track");
@@ -15,8 +15,8 @@ public class SongApp {
 		
 		//BIGBANG
 		Song S2 = new Song();
-		S2.setTitle(" 거짓말");
 		S2.setArtist("BIGBANG");
+		S2.setTitle(" 거짓말");
 		S2.setAlbum("Always");
 		S2.setYear("2007");
 		S2.setTrack("2번 track");
