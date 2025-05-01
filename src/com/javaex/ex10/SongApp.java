@@ -1,7 +1,5 @@
 package com.javaex.ex10;
 
-import com.javaex.ex09.Point;
-
 public class SongApp {
 
 	public static void main(String[] args) {
