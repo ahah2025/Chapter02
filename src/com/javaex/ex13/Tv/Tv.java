@@ -11,7 +11,7 @@ public class Tv {
 	//생성자
 	public Tv() {
 		//메모리
-		System.out.println("Volume(20)");
+		System.out.println("Volume(100)");
 	}
 	
 	public Tv(int volume,int power,int channel) {
@@ -64,8 +64,8 @@ public class Tv {
 	
 	//Tv정보 출력
 	public void status() {
-		System.out.println(power);
-		System.out.println(volume++);
-		System.out.println(channel++);
+		System.out.print("파워"+power+"\t");
+		System.out.print("채널"+channel+"\t");
+		System.out.print("볼륨"+volume);
 	}	
 }
