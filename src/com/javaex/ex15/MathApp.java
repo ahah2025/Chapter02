@@ -13,14 +13,16 @@ public class MathApp {
 		
 		int val01 = math.plus(5, 3); System.out.println(val01);
 		
-		//메소드 오버로딩 System.out.println(math.plus(5, 3));
-		System.out.println(math.plus2(5, 3.3)); System.out.println(math.plus3(3.3,
-		5)); System.out.println(math.plus4(3, 5.5));
+		//메소드 오버로딩 
+		System.out.println(math.plus(5, 3));
+		System.out.println(math.plus2(5, 3.3)); 
+		System.out.println(math.plus3(3.3,5)); 
+		System.out.println(math.plus4(3, 5.5));
 		
 		//원의 넓이 
 		System.out.println(Math.clrcleArea(5));
 		
-		 */
+		*/
 		/////////////////////////////////////////////////
 		// 메소드 오버로딩
 		System.out.println(Math.plus(5, 3));

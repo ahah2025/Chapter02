@@ -14,7 +14,7 @@ public class GoodsApp {
 				
 		
 		Goods cup = new Goods("머그컵",2000);
-		System.out.println(camera.getCount());
+		System.out.println(cup.getCount());
 		
 		
 		//camera.showInfo();

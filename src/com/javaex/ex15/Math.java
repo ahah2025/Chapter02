@@ -7,8 +7,6 @@ public class Math {
 	// private int price;
 	private static final double PI = 3.141592;
 	
-	
-	
 
 	// 생성자
 	/*
