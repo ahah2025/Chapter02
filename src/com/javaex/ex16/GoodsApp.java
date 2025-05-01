@@ -1,7 +1,5 @@
 package com.javaex.ex16;
 
-import com.javaex.ex14.Goods;
-
 public class GoodsApp {
 
 	public static void main(String[] args) {
