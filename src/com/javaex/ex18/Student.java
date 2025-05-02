@@ -8,7 +8,6 @@ public class Student {
 	
 	//생성자
 	public Student() {
-		
 	}
 	
 	public Student(String name, int age, String schoolName) {
@@ -21,7 +20,6 @@ public class Student {
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -29,7 +27,6 @@ public class Student {
 	public int getAge() {
 		return age;
 	}
-
 	public void setAge(int age) {
 		this.age = age;
 	}
@@ -37,7 +34,6 @@ public class Student {
 	public String getSchoolName() {
 		return schoolName;
 	}
-
 	public void setSchoolName(String schoolName) {
 		this.schoolName = schoolName;
 	}
