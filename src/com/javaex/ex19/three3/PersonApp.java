@@ -23,11 +23,15 @@ public class PersonApp {
 		Person(2)
 		Student()
 		*/
-		
+		System.out.println("-------------");
 		//이렇게 쓰는게 젤 자연스럽다
-		Student s03 = new Student("이효리",45,"제주고등학교");
-		
-		
+		Student s03 = new Student("이효리",22,"제주고등학교");
+		//생성자 완료 순서 :Person(2)--> Student(3)
+	
+		System.out.println(s03.getSchoolName());
+		System.out.println(s03.getName());
+		System.out.println(s03.getAge());
+		s03.showInfo();
 	}
 
 }

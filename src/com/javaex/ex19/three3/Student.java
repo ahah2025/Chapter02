@@ -5,7 +5,7 @@ package com.javaex.ex19.three3;
 public class Student extends Person {
 
 	// 필드
-	private String SchoolName;
+	protected String SchoolName;
 	
 	// 생성자
 	public Student() {
@@ -23,13 +23,13 @@ public class Student extends Person {
 	}
 	///////////////////////////////
 	public Student(String name,int age, String SchoolName) {
-		//name
-		//age ??
 		
+		super(name,age); //Person의 파라미터2개짜리 생성자 실행
 		this.SchoolName=SchoolName;
-		
+		System.out.println("Student(3)");
 	}
-	
+
+		
 	///////////////////////////////
 	// 메소드-gs
 	public String getSchoolName() {
@@ -45,4 +45,13 @@ public class Student extends Person {
 		return "Student [SchoolName=" + SchoolName + "]";
 	}
 
+	public void showInfo() {
+		System.out.println("=======================");
+		System.out.println("이름:"+ super.getName()); 
+		//부모클래스는 나와 다른 파일이니까 super. 이라고 표기  //부모 private
+		System.out.println("나이:"+ super.age);  //부모 protected
+		System.out.println("학교:"+ this.SchoolName); //자식클래스에서는 this. 이라고 표기 //자신
+		System.out.println("=======================");
+		
+	}
 }

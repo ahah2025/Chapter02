@@ -4,11 +4,11 @@ package com.javaex.ex19.three3;
 public class Person {
 
 	// 필드
-	private String name;
-	private int age;
+	private String name; //외부에서는 사용X (내자식한테만 열어주는 접근자:protected)
+	protected int age; 
 	
 	// 생성자
-	public Person() {
+	public Person() { //메모리
 		System.out.println("Person()");
 	}
 	
