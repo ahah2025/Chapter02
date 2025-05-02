@@ -26,15 +26,13 @@ public class Point {
 		this.y = y;
 	}
 	
-	public void draw() {
-		
-	}
-	
 	//메소드-일반
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 	
-	
+	public void draw() {
+		System.out.println("Point [x=" + x + ", y=" + y + "]");
+	}
 }
