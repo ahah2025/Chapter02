@@ -48,7 +48,7 @@ public class Student extends Person {
 	public void showInfo() {
 		System.out.println("=======================");
 		System.out.println("이름:"+ super.getName()); 
-		//부모클래스는 나와 다른 파일이니까 super. 이라고 표기  //부모 private
+		//부모클래스는 나와 다른 파일이니까 super. 이라고 표기  //부모 privated
 		System.out.println("나이:"+ super.age);  //부모 protected
 		System.out.println("학교:"+ this.SchoolName); //자식클래스에서는 this. 이라고 표기 //자신
 		System.out.println("=======================");
