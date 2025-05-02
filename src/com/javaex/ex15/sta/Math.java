@@ -1,4 +1,5 @@
-package com.javaex.ex15;
+package com.javaex.ex15.sta; 
+//메소드 일반(19번 Line)에서 static 이 들어간 Math.java
 
 public class Math {
 

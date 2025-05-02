@@ -1,4 +1,4 @@
-package com.javaex.ex15;
+package com.javaex.ex15.sta;
 
 public class MathApp {
 	// static 조사
