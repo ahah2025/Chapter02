@@ -1,5 +1,6 @@
 package com.javaex.ex19.three3;
 
+//ex19.three3 ==> PersonApp.java 8번이 Student 4번 extends Person
 public class Student extends Person {
 
 	// 필드
