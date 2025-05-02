@@ -5,7 +5,7 @@ package com.javaex.ex19.three3;
 public class Student extends Person {
 
 	// 필드
-	protected String SchoolName;
+	private String SchoolName;
 	
 	// 생성자
 	public Student() {
@@ -28,8 +28,6 @@ public class Student extends Person {
 		this.SchoolName=SchoolName;
 		System.out.println("Student(3)");
 	}
-
-		
 	///////////////////////////////
 	// 메소드-gs
 	public String getSchoolName() {
