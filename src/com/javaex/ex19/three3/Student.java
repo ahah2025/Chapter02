@@ -1,4 +1,4 @@
-package com.javaex.ex19;
+package com.javaex.ex19.three3;
 
 public class Student extends Person {
 
