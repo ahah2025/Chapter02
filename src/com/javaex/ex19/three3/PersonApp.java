@@ -20,10 +20,11 @@ public class PersonApp {
 		s02.setAge(22);
 		
 		/*
+		Person(2)
 		Student()
-		Person()
 		*/
 		
+		//이렇게 쓰는게 젤 자연스럽다
 		Student s03 = new Student("이효리",45,"제주고등학교");
 		
 		

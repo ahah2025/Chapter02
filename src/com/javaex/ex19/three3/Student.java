@@ -9,7 +9,7 @@ public class Student extends Person {
 	
 	// 생성자
 	public Student() {
-		super("정우성",25);
+		super("이효리",22);
 		/*
 		부모클래스의 특정 생성자를 호출해야 할 경우에는 super()를 이용하여 명시적으로 부모클래스의 생성자를 호출된다.
 		부모의 필드나 메소드에 접근시에는 super 키워드를 사용한다.
@@ -27,7 +27,6 @@ public class Student extends Person {
 		//age ??
 		
 		this.SchoolName=SchoolName;
-		Person.this.setName(ageName);
 		
 	}
 	
