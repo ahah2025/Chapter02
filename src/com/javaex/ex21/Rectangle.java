@@ -69,7 +69,7 @@ public class Rectangle {
 		System.out.println("세로"+height);
 		System.out.println("면색:"+fillColor);
 		System.out.println("선색:"+lineColor);
-		System.out.println("=========================================");
+		System.out.println("==============================");
 	}
 
 }

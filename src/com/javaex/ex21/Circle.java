@@ -6,7 +6,7 @@ public class Circle {
 	//필드
 	private String fillColor;
 	private String lineColor;
-	private int Circle;
+	private int Radius;
 
 	
 	//생성자
@@ -15,11 +15,11 @@ public class Circle {
 	}
 
 
-	public Circle(String fillColor, String lineColor, int circle) {
+	public Circle(String fillColor, String lineColor, int radius) {
 		super();
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
-		Circle = circle;
+		Radius = radius;
 	}
 
 	//메소드gs
@@ -43,29 +43,32 @@ public class Circle {
 	}
 
 
-	public int getCircle() {
-		return Circle;
+	public int getRadius() {
+		return Radius;
 	}
 
 
-	public void setCircle(int circle) {
-		Circle = circle;
+	public void setRadius(int radius) {
+		Radius = radius;
 	}
 
 	//메소드 일반
-	
 	@Override
 	public String toString() {
-		return "Circle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", Circle=" + Circle + "]";
+		return "Circle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", Radius=" + Radius + "]";
 	}	
+	
 	
 	public void draw() {
 		System.out.println("=========원을 그렸습니다=======");
 		System.out.println("면색:"+fillColor);
 		System.out.println("선색:"+lineColor);
-		System.out.println("원의 반지름:"+Circle);	
+		System.out.println("원의 반지름:"+Radius);	
 		System.out.println("==========================");
 	}
+
+
+
 	
 	
 }
