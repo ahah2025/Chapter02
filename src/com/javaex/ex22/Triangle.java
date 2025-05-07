@@ -9,12 +9,10 @@ public class Triangle extends Shape{
 	
 	//생성자
 	public Triangle() {
-		super();
 	}
 
 	/*
 	public Triangle(int width, int height) {
-		super();
 		this.width = width;
 		this.height = height;
 	}

@@ -9,7 +9,6 @@ public class Ractangle extends Shape{
 	
 	//생성자
 	public Ractangle() {
-		super();
 	}
 
 	public Ractangle(String fillColor, String lineColor,int width, int height) {
@@ -38,10 +37,11 @@ public class Ractangle extends Shape{
 	//메소드일반
 	@Override
 	public String toString() {
-		return "Ractangle [width=" + width + ", height=" + height + "]";
+		return "Rectangle [width=" + width + ", height=" + height + ", getFillColor()=" + getFillColor()
+				+ ", getLineColor()=" + getLineColor() + "]";
 	}
 	public void draw() {
-		System.out.println("================사각형을 그렸습니다==================");
+		System.out.println("====사각형을 그렸습니다==================");
 		System.out.println("면색:"+super.getFillColor());
 		System.out.println("선색:"+super.getLineColor());
 		System.out.println("가로:"+this.width);

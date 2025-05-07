@@ -4,14 +4,16 @@ public class PointApp {
 
 	public static void main(String[] args) {
 		
-		Point p = new Point(4,4);
+		Point p = new Point();
+		//System.out.println(p.toString());
 		
-		ColorPoint cp1 = new ColorPoint("red");
-		ColorPoint cp2 = new ColorPoint(10,10,"blue");
-		
+		ColorPoint cp1 = new ColorPoint(5,3,"red");
+		//System.out.println(cp1.toString());
 	
-		cp1.showInfo();
-		cp2.showInfo();
+		cp1.draw();
+		
+		//Point(2)
+		//ColorPoint(3)
 		
 	}
 

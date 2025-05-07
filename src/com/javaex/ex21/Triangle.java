@@ -3,10 +3,6 @@ package com.javaex.ex21;
 public class Triangle {
 
 	//필드
-	//면의 색 fill color
-	//선의 색 line color
-	//가로 width
-	//높이 height
 	private String fillColor;
 	private String lineColor;
 	private int width;
@@ -14,10 +10,9 @@ public class Triangle {
 	
 	//생성자
 	public Triangle() {
-		super();
 	}
+
 	public Triangle(String fillColor, String lineColor, int width, int height) {
-		super();
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 		this.width = width;

@@ -8,7 +8,6 @@ public class Circle extends Shape{
 	
 	//생성자
 	public Circle() {
-		super();
 	}
 	
 	public Circle(String fillColor,String lineColor, int radius) {

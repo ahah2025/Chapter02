@@ -6,20 +6,18 @@ public class Circle {
 	//필드
 	private String fillColor;
 	private String lineColor;
-	private int Radius;
+	private int radius;
 
 	
 	//생성자
 	public Circle() {
-		super();
 	}
 
 
 	public Circle(String fillColor, String lineColor, int radius) {
-		super();
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
-		Radius = radius;
+		this.radius = radius;
 	}
 
 	//메소드gs
@@ -44,28 +42,31 @@ public class Circle {
 
 
 	public int getRadius() {
-		return Radius;
+		return radius;
 	}
 
 
 	public void setRadius(int radius) {
-		Radius = radius;
+		this.radius = radius;
 	}
 
 	//메소드 일반
 	@Override
 	public String toString() {
-		return "Circle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", Radius=" + Radius + "]";
-	}	
+		return "Circle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", radius=" + radius + "]";
+	}
 	
 	
 	public void draw() {
 		System.out.println("=========원을 그렸습니다=======");
-		System.out.println("면색:"+fillColor);
-		System.out.println("선색:"+lineColor);
-		System.out.println("원의 반지름:"+Radius);	
+		System.out.println("반지름:" + radius);	
+		System.out.println("면색:" + fillColor);
+		System.out.println("선색:" + lineColor);
 		System.out.println("==========================");
 	}
+
+
+
 
 
 

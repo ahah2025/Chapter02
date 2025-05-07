@@ -12,11 +12,9 @@ public class Rectangle {
 	
 	//생성자
 	public Rectangle() {
-		super();
 	}
 
 	public Rectangle(String fillColor, String lineColor, int width, int height) {
-		super();
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 		this.width = width;
