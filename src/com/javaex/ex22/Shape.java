@@ -40,8 +40,7 @@ public class Shape {
 	}
 
 	public void draw() {
-		System.out.println("Shape draw()");
-
-
+		System.out.println("있으면 안되는데 덮어쓰기용");
 	}
+		
 }
