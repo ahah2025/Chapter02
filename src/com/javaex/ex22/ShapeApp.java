@@ -4,8 +4,8 @@ public class ShapeApp {
 
 	public static void main(String[] args) {
 		
-		Shape s01 = new Shape("빨강","검정"); //부모만 메모리에 올리기
-		System.out.println(s01.toString());
+		//Shape s01 = new Shape("빨강","검정"); //부모만 메모리에 올리기
+		//System.out.println(s01.toString());
 		
 		//선, 면의색이 없는 삼각형은 잘못된것임
 		//Triangle t01 = new Triangle(5,10); 
@@ -64,6 +64,8 @@ public class ShapeApp {
 		//원의 반지름
 		System.out.println(((Circle)sArray[1]).getRadius());
 		
+		//Shape s = new Shape(); //abstract 가 있으면 메모리에 올리면...
+		//s.draw();
 	}
 
 }

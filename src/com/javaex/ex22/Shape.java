@@ -1,8 +1,8 @@
 //부모클래스
 package com.javaex.ex22;
 
-public class Shape {
-	
+public abstract class Shape {
+	//abstract
 	//필드
 	private String fillColor;
 	private String lineColor;
@@ -39,8 +39,7 @@ public class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 
-	public void draw() {
-		System.out.println("있으면 안되는데 덮어쓰기용");
-	}
+	//오버라이딩용 메소드 !!!!!!!!주의!!!!!!!
+	public abstract void draw(); //내용을 안써도 됨!! 
 		
 }
