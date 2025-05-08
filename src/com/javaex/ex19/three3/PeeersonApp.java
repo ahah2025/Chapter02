@@ -1,6 +1,6 @@
 package com.javaex.ex19.three3;
 
-public class PersonApp {
+public class PeeersonApp {
 
 	public static void main(String[] args) {
 		/*
@@ -14,7 +14,7 @@ public class PersonApp {
 		*/
 		
 		//Student 가 Person을 상속받기 후
-		Student s02 = new Student();
+		Sssstudent s02 = new Sssstudent();
 		s02.setSchoolName("서울고등학교");
 		s02.setName("정우성");
 		s02.setAge(22);
@@ -25,7 +25,7 @@ public class PersonApp {
 		*/
 		System.out.println("-------------");
 		//이렇게 쓰는게 젤 자연스럽다
-		Student s03 = new Student("이효리",22,"제주고등학교");
+		Sssstudent s03 = new Sssstudent("이효리",22,"제주고등학교");
 		//생성자 완료 순서 :Person(2)--> Student(3)
 	
 		System.out.println(s03.getSchoolName());

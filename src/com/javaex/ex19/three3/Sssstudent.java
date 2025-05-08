@@ -2,13 +2,13 @@
 package com.javaex.ex19.three3;
 
 //ex19.three3 ==> PersonApp.java 8번이 Student 4번 extends Person
-public class Student extends Person {
+public class Sssstudent extends Peeerson {
 
 	// 필드
 	private String SchoolName;
 	
 	// 생성자
-	public Student() {
+	public Sssstudent() {
 		super("이효리",22);
 		/*
 		부모클래스의 특정 생성자를 호출해야 할 경우에는 super()를 이용하여 명시적으로 부모클래스의 생성자를 호출된다.
@@ -17,12 +17,12 @@ public class Student extends Person {
 		System.out.println("Student()");
 	}
 	
-	public Student(String schoolName) {
+	public Sssstudent(String schoolName) {
 		this.SchoolName = schoolName;
 		System.out.println("Student(1)");
 	}
 	///////////////////////////////
-	public Student(String name,int age, String SchoolName) {
+	public Sssstudent(String name,int age, String SchoolName) {
 		
 		super(name,age); //Person의 파라미터2개짜리 생성자 실행
 		this.SchoolName=SchoolName;

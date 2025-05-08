@@ -1,18 +1,18 @@
 //부모 클래스
 package com.javaex.ex19.three3;
 
-public class Person {
+public class Peeerson {
 
 	// 필드
 	private String name; //외부에서는 사용X (내자식한테만 열어주는 접근자:protected)
 	protected int age; 
 	
 	// 생성자
-	public Person() { //메모리
+	public Peeerson() { //메모리
 		System.out.println("Person()");
 	}
 	
-	public Person(String name, int age) {
+	public Peeerson(String name, int age) {
 		//super();
 		/*
 		부모클래스의 특정 생성자를 호출해야 할 경우에는 super()를 이용하여 명시적으로 부모클래스의 생성자를 호출된다.
