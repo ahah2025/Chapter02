@@ -2,7 +2,7 @@
 package com.javaex.ex22;
 
 public abstract class Shape {
-	//abstract
+
 	//필드
 	private String fillColor;
 	private String lineColor;
