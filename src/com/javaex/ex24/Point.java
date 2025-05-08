@@ -1,10 +1,7 @@
-package com.javaex.ex23;
+package com.javaex.ex24;
 
-public class Point extends Shape {
+public class Point implements Drawable{
 
-	//부모의 fillColor, lineColor 없어야 한다. Shape 상속할 필요없다
-	//같은 배열에 들어가야 하니까 Shape을 상속 받았다
-	
 	//필드
 	private int x;
 	private int y;
@@ -41,6 +38,7 @@ public class Point extends Shape {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 	
+	//Drawable 인터페이스 구현
 	public void draw() {
 		System.out.println("==점을 찍었습니다==================");
 		System.out.println("x:"+this.x);
@@ -48,8 +46,5 @@ public class Point extends Shape {
 		System.out.println("=========================================================");
 	}
 	
-	//넓이 개념이 없다
-	public void area() {
-		System.out.println("점은 면적을 구할 수 없습니다");
-	}
+
 }

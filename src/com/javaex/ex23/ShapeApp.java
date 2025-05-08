@@ -29,6 +29,9 @@ public class ShapeApp {
 		for(int i=0; i<sArr.length; i++) {
 			sArr[i].area();
 		}
+		
+		sArr[3].setFillColor("빨강");
+		
 	}
 
 }
