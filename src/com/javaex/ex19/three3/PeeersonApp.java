@@ -14,7 +14,7 @@ public class PeeersonApp {
 		*/
 		
 		//Student 가 Person을 상속받기 후
-		Sssstudent s02 = new Sssstudent();
+		Student s02 = new Student();
 		s02.setSchoolName("서울고등학교");
 		s02.setName("정우성");
 		s02.setAge(22);
@@ -25,7 +25,7 @@ public class PeeersonApp {
 		*/
 		System.out.println("-------------");
 		//이렇게 쓰는게 젤 자연스럽다
-		Sssstudent s03 = new Sssstudent("이효리",22,"제주고등학교");
+		Student s03 = new Student("이효리",22,"제주고등학교");
 		//생성자 완료 순서 :Person(2)--> Student(3)
 	
 		System.out.println(s03.getSchoolName());
