@@ -35,9 +35,31 @@ public class ShapeApp {
 			dArr[i].draw();
 		}
 		
+		//dp가 Drawable 출신이냐?
+		System.out.println(dp instanceof Drawable);
+		
+		//dp가 Point 출신이냐?
+		System.out.println(dp instanceof Point);
+		
+		//dp가 Shape 출신이냐?
+		System.out.println(dp instanceof Shape);
+		
+		//dt가 Shape 출신이냐?
+		System.out.println(dt instanceof Shape);
+				
+		
+		
 		//한번에 면적구하기 --> Point는 Shape으로 캐스팅 할 수 없다.
 		for(int i=0; i<dArr.length; i++) {
-			((Shape)dArr[i]).area();
+			if(dArr[i] instanceof Shape) { //방의 주소가 Shape출신이냐?
+				((Shape)dArr[i]).area();
+			}else {
+				System.out.println("면적못구함");
+			}
+			
+			
+			
+			
 		}
 		
 		
