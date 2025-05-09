@@ -38,5 +38,11 @@ public class Circle extends Shape{
 		System.out.println("=========================================================");
 	}
 	
+	//넓이구하는 함수
+	public void area() {
+		System.out.println("원의 넓이--------------------");
+		System.out.println(3.14*radius*radius);
+		System.out.println("---------------------------");
+	}
 	
 }

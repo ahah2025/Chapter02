@@ -4,7 +4,7 @@ public class ShapeApp {
 
 	public static void main(String[] args) {
 		
-		//Shape s01 = new Shape("빨강","검정"); //부모만 메모리에 올리기
+		//Shape s01 = new Shape("빨강","검정"); //부모만 메모리에 올라옴
 		//System.out.println(s01.toString());
 		
 		//선, 면의색이 없는 삼각형은 잘못된것임
@@ -24,14 +24,14 @@ public class ShapeApp {
 		//System.out.println(c01.toString());
 		//c01.draw();
 		
-		//*부모쪽만 보임 --> 섞어쓰기
-		Shape st = new Triangle("초록","초록",100,100); //섞어쓰기
+		//*부모쪽만 보임 --> 섞어쓰기 --> 왜? 하나로 관리하려고
+		Shape st = new Triangle("초록","초록",100,100); 
 		//st.getFillColor();
 		//st.draw();
 		//st.getWidth();
 		//st.getHeight();
 		
-		Shape sc = new Circle("빨강","빨강",13); //섞어쓰기
+		Shape sc = new Circle("빨강","빨강",50); //섞어쓰기
 		//sc.getFillColor();
 		//sc.getRadius();
 		//sc.draw();
@@ -44,9 +44,11 @@ public class ShapeApp {
 		Shape[] sArray = new Shape[3];
 		
 		//도형담기
-		sArray[0]=st;
-		sArray[1]=sc;
-		sArray[2]=sr;
+		
+		//sArray[0] = t01; //업캐스팅 자동으로 섞어쓰기된다
+		sArray[0]= st;  
+		sArray[1] = sc;
+		sArray[2] = sr;
 
 		//전체도형을 draw()로출력--> 자식쪽의 기능으로 사용할 수 없다
 		//해결방법-->오버라이딩
@@ -64,7 +66,7 @@ public class ShapeApp {
 		//원의 반지름
 		System.out.println(((Circle)sArray[1]).getRadius());
 		
-		//Shape s = new Shape(); //abstract 가 있으면 메모리에 올리면...
+		//Shape s = new Shape(); //abstract 가 있으면 메모리에 올리면 안된다.
 		//s.draw();
 	}
 
