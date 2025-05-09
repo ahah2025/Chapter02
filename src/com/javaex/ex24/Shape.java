@@ -45,8 +45,13 @@ public abstract class Shape {
 	}
 	*/
 	
-	//인터페이스 가 draw ()개념을 가지고 있음
-	//public abstract void draw();
+	
+	//코드는 작성하고 싶어도 못한다 --> 안만들면되잖아?
+	//그러나 필요는 하다 --> 자식들이 만들어야 한다
+	//오버라이딩 용 메소드 작성 메소드 껍데기만 만들기
+	//abstract 사용해서 내부코드는 없어도 되게 한다
+	//abstract 를 사용한 메소드는 자식이 꼭 구현해야한다
+	public abstract void draw();  //내용을 안써도 됨  -->오바라이딩용 메소드
 	
 	public abstract void area(); 
 }

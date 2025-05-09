@@ -55,7 +55,7 @@ public class Ractangle extends Shape implements Drawable{
 	//shape의 area()메소드 오버라이드:    넓이 구하는 함수
 	public void area() {
 		System.out.println("사각형의 넓이-------------------------");
-		System.out.println(3.14*width*height);
+		System.out.println(width*height);
 		System.out.println("-------------------------------------------");
 	}
 }

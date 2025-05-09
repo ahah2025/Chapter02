@@ -63,7 +63,7 @@ public class Triangle extends Shape{
 	//넓이 구하는 함수
 	public void area() {
 		System.out.println("삼각형의 넓이-------------------------");
-		System.out.println(3.14*width*height/2);
+		System.out.println(width*height/2);
 		System.out.println("------------------------------------------");
 	}
 }
