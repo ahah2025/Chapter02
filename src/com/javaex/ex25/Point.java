@@ -8,11 +8,9 @@ public class Point {
 
 	// 생성자
 	public Point() {
-		super();
 	}
 
 	public Point(int x, int y) {
-		super();
 		this.x = x;
 		this.y = y;
 	}

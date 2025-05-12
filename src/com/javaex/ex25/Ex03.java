@@ -13,6 +13,7 @@ public class Ex03 {
 		try {
 			Point p02 = null;
 			p02.setX(100);
+			
 		} catch (NullPointerException e) {
 			//System.out.println(e.toString());
 			System.out.println("포인트가 생성되지 못했습니다");

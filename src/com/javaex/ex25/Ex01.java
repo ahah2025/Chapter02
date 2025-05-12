@@ -8,9 +8,9 @@ public class Ex01 {
 	//메소드일반	
 	public static void main(String[] args) {
 		
+		//Point p01 = new Point(3,3);
+		//p01.draw();
 		
-		null.draw();
-
 		Scanner sc = new Scanner(System.in);
 		int result=0;
 		
@@ -26,7 +26,7 @@ public class Ex01 {
 			
 		}finally { //생략 가능
 			//예외 발생 여부와 상관없이 무조건 실행
-			
+			System.out.println("공통영역");
 		}
 	
 		System.out.println(result);

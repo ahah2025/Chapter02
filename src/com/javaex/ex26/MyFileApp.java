@@ -1,8 +1,9 @@
 package com.javaex.ex26;
 
-import java.util.Scanner;
+import java.io.IOException;
 
-public class MyfileApp {
+//정우성(강남)
+public class MyFileApp {
 
 	public static void main(String[]args) {
 	
@@ -17,7 +18,7 @@ public class MyfileApp {
 		System.out.println(str);
 		*/
 		
-		Myfile m1 = new Myfile();
+		MyFile m1 = new MyFile();
 		
 		try {
 			m1.read3("C:\\JavaStudy\\Java\\노라.txt");
